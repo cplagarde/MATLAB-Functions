@@ -6,7 +6,6 @@
 % sin. 
 % Creates a cell array for a rotation matrix with given sets of theta
 % values (txdeg,tydeg,tzdeg).
-
 function [rotation] = rotdeg(txdeg,tydeg,tzdeg)
 
 % Defines the amount of thetas in txdeg (should be the same as tydeg &
